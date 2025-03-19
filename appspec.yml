@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/devopspipeline
+    destination: /home/ec2-user/Devopspipeline
 
 hooks:
   AfterInstall:
