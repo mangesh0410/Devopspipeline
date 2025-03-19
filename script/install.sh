@@ -4,7 +4,7 @@ echo "Clearing old build files..."
 sudo rm -rf /usr/share/nginx/html/*
 
 echo "Copying new build files to Nginx directory..."
-sudo cp -r /home/ec2-user/devopspipeline/build1/* /usr/share/nginx/html/
+sudo cp -r /home/ec2-user/Devopspipeline/build1/* /usr/share/nginx/html/
 
 echo "Restarting Nginx..."
 sudo systemctl start nginx
